@@ -83,7 +83,7 @@
       "zIndex": 6
     },
     {
-      "align": "center",
+      "align": "left",
       "bold": true,
       "color": "#000000",
       "field": "visitorType",
@@ -92,7 +92,7 @@
       "id": "visitorType",
       "italic": false,
       "type": "text",
-      "w": 607,
+      "w": 604,
       "x": 20,
       "y": 527,
       "zIndex": 7
@@ -109,7 +109,7 @@
       "type": "text",
       "w": 438,
       "x": 620,
-      "y": 522,
+      "y": 535,
       "zIndex": 8
     }
   ],
