@@ -1,0 +1,118 @@
+{
+  "canvas": {
+    "background": "#ffffff",
+    "height": 696,
+    "width": 1066
+  },
+  "elements": [
+    {
+      "field": "logoPath",
+      "h": 115,
+      "id": "logo",
+      "lockAspect": true,
+      "src": "static/assets/Woodward W ONLY.png",
+      "type": "image",
+      "w": 140,
+      "x": 20,
+      "y": 23,
+      "zIndex": 1
+    },
+    {
+      "field": "visitorId",
+      "h": 191,
+      "id": "qrCode",
+      "type": "qrcode",
+      "w": 192,
+      "x": 863,
+      "y": 14,
+      "zIndex": 2
+    },
+    {
+      "align": "left",
+      "bold": false,
+      "color": "#000000",
+      "field": "company",
+      "fontFamily": "Inter",
+      "fontSize": 30,
+      "id": "companyName",
+      "italic": false,
+      "type": "text",
+      "w": 700,
+      "x": 20,
+      "y": 145,
+      "zIndex": 3
+    },
+    {
+      "align": "left",
+      "bold": true,
+      "color": "#000000",
+      "field": "visitorName",
+      "fontFamily": "Inter",
+      "fontSize": 90,
+      "id": "visitorName",
+      "italic": false,
+      "type": "text",
+      "w": 840,
+      "x": 20,
+      "y": 185,
+      "zIndex": 4
+    },
+    {
+      "align": "left",
+      "bold": false,
+      "color": "#000000",
+      "field": "host",
+      "fontFamily": "Inter",
+      "fontSize": 34,
+      "id": "hostLine",
+      "italic": false,
+      "type": "text",
+      "w": 700,
+      "x": 20,
+      "y": 310,
+      "zIndex": 5
+    },
+    {
+      "color": "#000000",
+      "h": 2,
+      "id": "divider",
+      "type": "line",
+      "w": 1046,
+      "x": 10,
+      "y": 375,
+      "zIndex": 6
+    },
+    {
+      "align": "left",
+      "bold": true,
+      "color": "#000000",
+      "field": "visitorType",
+      "fontFamily": "Inter",
+      "fontSize": 85,
+      "id": "visitorType",
+      "italic": false,
+      "type": "text",
+      "w": 550,
+      "x": 20,
+      "y": 399,
+      "zIndex": 7
+    },
+    {
+      "align": "right",
+      "bold": false,
+      "color": "#000000",
+      "field": "date",
+      "fontFamily": "Inter",
+      "fontSize": 60,
+      "id": "dateText",
+      "italic": false,
+      "type": "text",
+      "w": 410,
+      "x": 640,
+      "y": 420,
+      "zIndex": 8
+    }
+  ],
+  "name": "woodward-visitor",
+  "version": 1
+}
